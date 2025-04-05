@@ -1,0 +1,42 @@
+/* Global style starts here*/
+
+body {
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-link {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(3, 66, 160);
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+
+/* Global style ends here*/
+
+/* jollof rice and chicken styles start here */
+
+.cook-note-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cook-note {
+    border: solid 2px rgb(3, 66, 160);
+    width: 400px;
+    box-shadow: 10px 15px 0px rgba(3, 66, 160, 1);
+}
+
+.cook-note h3 {
+    margin-left: 10px;
+    font-family: monospace;
+    color: rgb(221, 12, 12);
+    font-size: 15px;
+    text-align: center;
+}
+
+/* jollof rice and chicken styles ends here */
